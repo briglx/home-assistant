@@ -15,7 +15,7 @@
         "data": {
           "host": "[%key:common::config_flow::data::ip%]",
           "token": "[%key:common::config_flow::data::api_token%]",
-          "name": "Name of the Gateway"
+          "name": "[%key:common::config_flow::data::name%]"
         }
       }
     },
